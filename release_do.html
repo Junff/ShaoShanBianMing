@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="styles/header.css">
+	<link rel="stylesheet" href="styles/reset.css">
+	<link rel="stylesheet" href="styles/item.css">
+	<title>我要发布</title>
+<style>
+.release_button{
+	float: right;
+	background-color: #18B63B;
+	text-align: center;
+	height: 24px;
+	margin-top: 3px;
+	margin-right: 50px;
+}
+.release_button a{
+	border: 0;
+	color: #fff;
+	line-height: 25px;
+}
+.release_button a:hover{
+	border: 0;
+	color: #fff;
+}
+.slide{
+	color: #fff;
+}
+.release_do_content{
+	background-color: #fff;
+	margin: 20px 50px;
+	padding:10px;
+	height: 1000px;
+}
+.release_do_content h3{
+	font-weight: 500;
+}
+.release_do_content span{
+	display: inline-block;
+	width: 80px;
+}
+.release_do_content form{
+	padding: 10px 20px;
+	line-height: 35px;
+	font-size: 13px;
+}
+form input,form select{
+	height: 20px;
+	font-size: 13px;
+	padding: 0 5px;
+}
+.release_do_content button{
+	margin-top: 10px;
+	margin-left: 3px;
+	padding: 12px 50px;
+	background-color: #F8614C;
+	color: #fff;
+	border: none;
+}
+.success{
+	display: none;
+	background-color: #fff;
+	line-height: 30px;
+	text-align: center;
+	margin: 20px 50px;
+	padding: 100px;
+}
+</style>
+</head>
+<body>
+<div class="top">
+	<div class="top_left">
+			<a href="">您好！请登录</a>
+			<span class="slide">|</span>
+			<a href="">免费注册</a>
+	</div>
+	<div class="top_right">
+			<a href=""><img src="images/sgbm_01.png" width="12px" height="12px" style="margin-bottom: -2px;padding-right: 2px;">400-500-8888</a>
+			<span class="slide">|</span>
+			<a href="">下载APP</a>
+			<span class="slide">|</span>
+			<a href="">客服中心</a>
+	</div>
+</div>
+<div class="header">
+	<img src="images/sgbm_02.png" alt="">
+	<form action="">
+	<input type="search" placeholder="请输入服务、商家、地址"><button>搜索</button><a href=""><img src="images/sgbm_15.png" alt="" width="12px" height="12px" style="margin: 0;padding: 8px 0 0 5px">我收藏的服务</a>
+		<p style="color: #b5b5b5;font-size: 12px;">钟点工 电视维修 洗衣机维修 空调拆装</p>
+	</form>
+</div>
+<div class="mid">
+	<div class="nav">
+		<a href="" style="margin-left: 100px;">首页</a>
+		<a href="">附近服务</a>
+		<a href="" class="selected_a">发布需求</a>
+		<a href="">推荐服务</a>
+		<a href="">人气之选</a>
+	</div>
+	<div class="nav_little">
+		<a href="" class="selected_nav_little_a">全部</a>
+		<a href="">钟点工</a>
+		<a href="">家电维修</a>
+		<a href="">开/换/修锁</a>
+		<a href="">电路维修</a>
+		<a href="">管道疏通</a>
+		<a href="">房屋维修</a>
+		<a href="">跑腿配送</a>
+		<div class="release_button">
+			<a href="">我要发布</a><span class="slide">|</span><a href="">我的发布</a>
+		</div>
+	</div>
+	<div class="content">
+		<div class="release_do_content">
+			<h3>发布需求</h3>
+			<form action="">
+				<div>
+					<span>标题：</span><input type="text" placeholder="输入标题，30字内">
+				</div>
+				<div>
+					<span>需求类别：</span><select name="" id="">
+						<option value="钟点工" selected="select">钟点工</option>
+					</select>
+				</div>
+				<div>
+					<span>需求区域：</span><select name="" id="">
+						<option value="韶关市" selected="select">韶关市</option>
+					</select>
+					<select name="" id="">
+						<option value="武江区" selected="select">武江区</option>
+					</select>
+					<input type="text" placeholder="输入详细地址">
+				</div>
+				<div>
+					<span>联系人：</span><input type="text" placeholder="联系人姓名">
+				</div>
+				<div>
+					<span>手机号码：</span><input type="numble" placeholder="联系人手机号码">
+				</div>
+				<div>
+					<span>附加照片：</span><img src="images/sgbm_27.png" alt="">
+				</div>
+				<div>
+					<span>服务要求：</span>
+					<textarea name="" id="" cols="40" rows="5" placeholder="输入需要的服务内容" ></textarea>
+				</div>
+				<span></span><button>立即发布</button>
+			</form>
+		</div>
+		<div class="success">
+			<img src="images/sgbm_25.png" alt="">
+			<p style="font-size: 20px">发布成功</p>
+			<p style="font-size: 12px;color: #ccc">恭喜您，发布成功！<a href="" style="color: #ccc;text-decoration: underline;">查看我发布的服务</a>。</p>
+		</div>
+	</div>
+</div>
+</body>
+</html>

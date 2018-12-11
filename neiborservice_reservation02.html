@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="styles/header.css">
+	<link rel="stylesheet" href="styles/reset.css">
+	<title>预约</title>
+<style>
+	.reservation{
+		background-color: #fff;
+		margin: 20px 50px;
+		padding: 10px;
+		font-size: 12px;
+	}
+	.reservation form{
+		padding: 10px;
+	}
+	.reservation_top{
+		margin: 10px 0 20px 0;
+		padding: 10px;
+		border: 1px dotted;
+		line-height: 25px;
+	}
+	.reservation_title{
+		font-size: 16px;
+		font-weight: 500;
+	}
+	.word{
+		font-size: 12px;
+		color: #ccc;
+	}
+	.reservation_slide{
+		margin: 0 10px;
+		font-size: 12px;
+	}
+	.reservation_content{
+		line-height: 40px;
+	}
+	.reservation_content input,.reservation_content textarea{
+		margin: 0 5px;
+		border: 1px solid #ccc;
+	}
+	.reservation_content button{
+		margin-top: 10px;
+		margin-left: 80px;
+		padding: 12px 50px;
+		background-color: #F8614C;
+		color: #fff;
+		border: none;
+	}
+	.success{
+		display: none;
+		background-color: #fff;
+		line-height: 30px;
+		text-align: center;
+		margin: 20px 50px;
+		padding: 100px;
+	}
+</style>
+</head>
+<body>
+<div class="top">
+	<div class="top_left">
+			<a href="">您好！请登录</a>
+			<span class="slide">|</span>
+			<a href="">免费注册</a>
+	</div>
+	<div class="top_right">
+			<a href=""><img src="images/sgbm_01.png" width="12px" height="12px" style="margin-bottom: -2px;padding-right: 2px;">400-500-8888</a>
+			<span class="slide">|</span>
+			<a href="">下载APP</a>
+			<span class="slide">|</span>
+			<a href="">客服中心</a>
+	</div>
+</div>
+<div class="header">
+	<img src="images/sgbm_02.png" alt="">
+	<form action="">
+	<input type="search" placeholder="请输入服务、商家、地址"><button>搜索</button><a href=""><img src="images/sgbm_15.png" alt="" width="12px" height="12px" style="margin: 0;padding: 8px 0 0 5px">我收藏的服务</a>
+		<p style="color: #b5b5b5;font-size: 12px;">钟点工 电视维修 洗衣机维修 空调拆装</p>
+	</form>
+</div>
+<div class="mid">
+	<div class="nav">
+		<a href="" style="margin-left: 100px;">首页</a>
+		<a href="" class="selected_a">附近服务</a>
+		<a href="">发布需求</a>
+		<a href="">推荐服务</a>
+		<a href="">人气之选</a>
+	</div>
+	<div class="nav_little">
+		<a href="" class="selected_nav_little_a">全部</a>
+		<a href="">钟点工</a>
+		<a href="">家电维修</a>
+		<a href="">开/换/修锁</a>
+		<a href="">电路维修</a>
+		<a href="">管道疏通</a>
+		<a href="">房屋维修</a>
+		<a href="">跑腿配送</a>
+	</div>
+	<div class="content">
+		<div class="reservation">
+			<h3 class="reservation_title">预约服务</h3>
+			<form action="">
+				<p>预约项目：</p>
+				<div class="reservation_top">
+					<p class="reservation_title">广州搬家正规注册 高效专业搬家搬厂搬仓库 中途不加价</p>
+					<div class="word"><span>诚信搬家</span><span class="reservation_slide">|</span><span>广东韶关市浈江区浈江大道282号首层</span><span class="reservation_slide">|</span><span>苏先生</span></div>
+				</div>
+				<div class="reservation_content">
+					<div>预约时间：<input type="date" class="date" value="2018-12-02"><input type="time" class="time_start" value="06:00:00"><input type="time" class="time_end" value="22:00:00"></div>
+					<div>服务地址：<input type="text"><input type="text"><input type="text"></div>
+					<div>服务内容：<textarea name="" id="" cols="50" rows="8"></textarea></div>
+					<p>服务金额：<span style="color: #F8604D">￥<span style="font-size:20px;font-weight: 600">600</span></span></p>
+					<button>立即预约</button>
+				</div>
+			</form>
+		</div>
+		<div class="success">
+			<img src="images/sgbm_25.png" alt="">
+			<p style="font-size: 20px">预约成功</p>
+			<p style="font-size: 12px;color: #ccc">恭喜您，预约成功！<a href="" style="color: #ccc;text-decoration: underline;">查看我的预约</a>。</p>
+		</div>
+	</div>
+</div>
+</body>
+</html>
